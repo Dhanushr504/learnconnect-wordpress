@@ -120,7 +120,7 @@ This ensures controlled access and a real-world authentication flow.
 ![Home Page](screenshots/home.png)
 
 ### Feed (Logged Out)
-![Feed Logged Out](screenshot/feed-logged-out.png)
+![Feed Logged Out](screenshots/feed-logged-out.png)
 
 ### Feed (Logged In)
 ![Feed Logged In](screenshots/feed-logged-in.png)
