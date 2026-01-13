@@ -133,7 +133,7 @@ This ensures controlled access and a real-world authentication flow.
 
 ## 🎯 Learning Outcomes
 
-* Strong understanding of WordPress theme development
+*  Strong understanding of WordPress theme development
 * Practical experience with authentication logic
 * Real-world page restriction handling
 * Git-based project management
