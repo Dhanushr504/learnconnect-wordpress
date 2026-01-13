@@ -114,13 +114,25 @@ This ensures controlled access and a real-world authentication flow.
    Settings → General → Anyone can register
    ```
 
-## 📸 Screenshots 
+## 📸 Screenshots
 
+### Home Page
+![Home Page](screenshots/home.png)
 
-* Home Page
-* Login / Signup
-* Profile Page
-* Feed Page (Logged-in vs Logged-out)
+### Login / Signup
+![Login Page](screenshots/login.png)
+
+### Feed (Logged Out)
+![Feed Logged Out](screenshots/feed-logged-out.png)
+
+### Feed (Logged In)
+![Feed Logged In](screenshots/feed-logged-in.png)
+
+### Profile Page
+![Profile Page](screenshots/profile.png)
+
+### Contact Page
+![Contact Page](screenshots/contact.png)
 
 ## 🎯 Learning Outcomes
 
