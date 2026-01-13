@@ -117,22 +117,19 @@ This ensures controlled access and a real-world authentication flow.
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](screenshots/home.png)
-
-### Login / Signup
-![Login Page](screenshots/login.png)
+![Home Page](screenshot/home.png)
 
 ### Feed (Logged Out)
-![Feed Logged Out](screenshots/feed-logged-out.png)
+![Feed Logged Out](screenshot/feed-logged-out.png)
 
 ### Feed (Logged In)
-![Feed Logged In](screenshots/feed-logged-in.png)
+![Feed Logged In](screenshot/feed-logged-in.png)
 
 ### Profile Page
-![Profile Page](screenshots/profile.png)
+![Profile Page](screenshot/profile.png)
 
 ### Contact Page
-![Contact Page](screenshots/contact.png)
+![Contact Page](screenshot/contact.png)
 
 ## 🎯 Learning Outcomes
 
