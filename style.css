@@ -1,0 +1,331 @@
+/*
+Theme Name: LearnConnect
+Theme URI: https://github.com/dhanushr/learnconnect
+Author: Dhanush R
+Description: A professional self-learning platform built using WordPress custom theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: learnconnect
+*/
+
+/* ---------- GLOBAL ---------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+/* ---------- LAYOUT ---------- */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+/* ---------- HEADER ---------- */
+.site-header {
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.nav-menu li a {
+    font-weight: 500;
+}
+.nav-menu li a:hover {
+    color: #110602;
+}
+
+
+/* ---------- FEED / POSTS ---------- */
+.post-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.post-card h3 {
+    margin-top: 0;
+}
+
+/* ---------- SINGLE POST ---------- */
+.single-post {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* ---------- BUTTONS ---------- */
+button,
+input[type="submit"] {
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background: #1e40af;
+}
+
+/* ---------- FORMS ---------- */
+.form-box {
+    max-width: 400px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.form-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* ---------- FOOTER ---------- */
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    border-top: 1px solid #ddd;
+    margin-top: 60px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+    .nav-menu ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+.learnconnect-like-section {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.learnconnect-like-btn {
+    background: #2563eb;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+/* =========================
+   Profile Page Styles
+   ========================= */
+
+.profile-wrapper {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Profile Picture */
+.profile-wrapper img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;      /* Makes image circular */
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #f0f0f0;
+}
+
+/* User Name */
+.profile-wrapper h2 {
+    font-size: 22px;
+    margin: 10px 0 8px;
+    color: #222;
+    font-weight: 600;
+}
+
+/* Article Count Text */
+.profile-wrapper p {
+    font-size: 15px;
+    color: #555;
+    margin: 0;
+}
+
+.profile-wrapper p strong {
+    color: #000;
+}
+.profile-section-title {
+    margin-top: 30px;
+     margin-left: 30px;
+    font-size: 18px;
+    color: #333;
+}
+
+.profile-post-list {
+    list-style: circle;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.profile-post-list li {
+    margin-bottom: 8px;
+}
+
+.profile-post-list a {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.profile-post-list a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+.profile-edit-btn,
+.profile-logout-btn {
+    display: inline-block;
+    margin: 10px 6px;
+    padding: 8px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.profile-edit-btn {
+    background-color: #0073aa;
+    color: #fff;
+}
+
+.profile-logout-btn {
+    background-color: #dc3232;
+    color: #fff;
+}
+/* Contact Form */
+.contact-form {
+    max-width: 500px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.contact-form textarea {
+    min-height: 120px;
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Main layout wrapper */
+.site-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Page content area */
+.site-content {
+    flex: 1;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 14px;
+}
+.feed-guest-box {
+    max-width: 420px;
+    margin: 80px auto;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fafafa;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+.feed-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 24px;
+    background: #348dd6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.feed-buttons .btn-signup {
+    background: #d22432;
+}
