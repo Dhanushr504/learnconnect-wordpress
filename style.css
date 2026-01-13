@@ -248,25 +248,37 @@ input[type="submit"]:hover {
     background-color: #dc3232;
     color: #fff;
 }
-/* Contact Form */
+
+/* Contact Page Styling */
+.contact-wrapper {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
 .contact-form {
-    max-width: 500px;
-    margin: 50px auto;
+    width: 100%;
+    max-width: 420px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 18px;
 }
 
 .contact-form input,
 .contact-form textarea {
-    padding: 12px;
-    font-size: 14px;
+    width: 100%;
+    padding: 12px 14px;
     border: 1px solid #ccc;
     border-radius: 6px;
+    font-size: 15px;
+    outline: none;
 }
 
-.contact-form textarea {
-    min-height: 120px;
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #000;
 }
 
 .contact-form button {
@@ -275,12 +287,15 @@ input[type="submit"]:hover {
     color: #fff;
     border: none;
     border-radius: 6px;
+    font-size: 15px;
     cursor: pointer;
 }
 
 .contact-form button:hover {
-    background-color: #333;
+    opacity: 0.9;
 }
+
+
 html, body {
     height: 100%;
     margin: 0;
